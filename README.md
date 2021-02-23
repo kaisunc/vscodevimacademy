@@ -1,4 +1,4 @@
-# Vscode Vim Academy 1.0
+# Vscode Vim Academy
 Vscode Vim Academy is a set of tutorial and drills to practice various vim and vscode key combos and shortcuts.
 
 ## Free/Paid
