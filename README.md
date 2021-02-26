@@ -1,6 +1,5 @@
 <div align="center">
-      <!-- <img alt="ReDoc logo" src="https://raw.githubusercontent.com/kaisunc/kaisunc.github.io/master/vscodevimacademy/data/images/banner.png" width="400px" /> -->
-            <img alt="ReDoc logo" src="./data/markdown/banner.gif" />
+      <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/banner.gif" />
 
 </div>
 
@@ -12,7 +11,7 @@ A game to learn vim and vscode keys in logical, digestable levels.
 
 ## DEMO
 
-<img alt="ReDoc logo" src="./data/markdown/quickDemo.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/quickDemo.gif" />
 
 From the **Actions Motion** Level
 Perform various actions in conjunction with w and b. dw, db, vw, vb, yw, yb, cw, cb, p, P
@@ -20,28 +19,28 @@ Perform various actions in conjunction with w and b. dw, db, vw, vb, yw, yb, cw,
 Orange - Select
 Red - Delete
 Grey - Yank
-Green - Paste
-Purple - Change
+
+Green - Paste Purple - Change
 
 <details>
 <summary>
 Basic Levels and UI
 </summary>
-<img alt="ReDoc logo" src="./data/markdown/basics.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
 </details>
 
 <details>
 <summary>
 Word - Move to beginning of word(s) or end of words(s)
 </summary>
-<img alt="ReDoc logo" src="./data/markdown/word.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/word.gif" />
 </details>
 
 <details>
 <summary>
 Actions Motions
 </summary>
-<img alt="ReDoc logo" src="./data/markdown/actions_motion.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/actions_motion.gif" />
 </details>
 
 
@@ -49,7 +48,7 @@ Actions Motions
 <summary>
 Super Cool End of Level UI and Effects!
 </summary>
-<img alt="ReDoc logo" src="./data/markdown/endCursor.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/endCursor.gif" />
 </details>
 ## QUICK START
 1. Install [ VSCODE VIM ]() extension to enable vim emulation in vscode.
@@ -60,7 +59,7 @@ Super Cool End of Level UI and Effects!
    <summary>
     Video Tutorial
    </summary>
-   <img alt="ReDoc logo" src="./data/markdown/activation.gif" />
+   <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/activation.gif" />
    </details>
 
 
