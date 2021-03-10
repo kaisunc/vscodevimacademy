@@ -9,25 +9,16 @@
 A game to learn vim and vscode keys in logical, digestable levels.
 
 
+
 ## DEMO
+
+Basic Levels and UI
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
+
+From the **Actions Motion** Level
 
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/quickDemo.gif" />
 
-From the **Actions Motion** Level
-Perform various actions in conjunction with w and b. dw, db, vw, vb, yw, yb, cw, cb, p, P
-
-Orange - Select
-Red - Delete
-Grey - Yank
-
-Green - Paste Purple - Change
-
-<details>
-<summary>
-Basic Levels and UI
-</summary>
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
-</details>
 
 <details>
 <summary>
@@ -50,6 +41,8 @@ Super Cool End of Level UI and Effects!
 </summary>
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/endCursor.gif" />
 </details>
+
+
 ## QUICK START
 1. Install [ VSCODE VIM ]() extension to enable vim emulation in vscode.
 2. Install [ VSCODE VIM ACADEMY ](https://marketplace.visualstudio.com/items?itemName=kaisunchou.vscodevimacademy)
@@ -74,6 +67,7 @@ Levels are separated into five categories. Motions, Actions - Horizontal, Action
 Each level will introduce 2 or more navigation or editing tasks, and have players complete 10 sets of the tasks as quickly with as little key presses as possible. Hints and manual will be listed on the right panel(CONSOLE), your performance will be logged per task based on how fast your performed and how many keypresses you used.
 
 In the editor, tasks will be shown as a color outline.
+
 Yellow for motions, move to anywhere inside the yellow box to complete the task.
 Red for delete action.
 Orange for selection.
@@ -81,13 +75,11 @@ Green for pasting.
 Purple for changing things.
 Grey for copying.
 
-
-
-
-**HOTKEYS**
+<!-- **HOTKEYS**
 ctrl+left previous level
 ctrl+right next level
-ctrl+alt+r reload level
+ctrl+alt+r reload level -->
+
 ### LEVELS
 
 <details>
@@ -228,3 +220,5 @@ UI
 
 
 ## NOTES
+Buy a license to unlock all the levels
+[![paypal](https://www.paypalobjects.com/en_US/TW/i/btn/btn_buynowCC_LG_wCUP.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SQ5JH6B6MHFJ)
