@@ -11,17 +11,17 @@ A game to learn vim and vscode keys in logical, digestable levels.
 
 
 ## DEMO
-
+**GIF is sped up 2X**
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/demo.gif" />
 
 From the **Actions Motion** Level
-
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/demo.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/quickDemo.gif" />
 
 <details>
 <summary>
 Basic Levels and UI
 </summary>
-<img alt="" src="<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
 </details>
 
 <details>
@@ -66,24 +66,6 @@ Be the most comprehensive vim and vscode learning resource by providing interact
 
 
 ## HOW TO PLAY
-Levels are separated into five categories. Motions, Actions - Horizontal, Actions - Vertical, Surrounds, and UI.
-
-Each level will introduce 2 or more navigation or editing tasks, and have players complete 10 sets of the tasks as quickly with as little key presses as possible. Hints and manual will be listed on the right panel(CONSOLE), your performance will be logged per task based on how fast your performed and how many keypresses you used.
-
-In the editor, tasks will be shown as a color outline.
-
-Yellow for motions, move to anywhere inside the yellow box to complete the task.
-Red for delete action.
-Orange for selection.
-Green for pasting.
-Purple for changing things.
-Grey for copying.
-
-<!-- **HOTKEYS**
-ctrl+left previous level
-ctrl+right next level
-ctrl+alt+r reload level -->
-
 ### LEVELS
 
 <details>
@@ -220,6 +202,26 @@ UI
 5. Quick File Navigation 2 - Last File
 
 </details>
+
+<br>
+Levels are separated into five categories. Motions, Actions - Horizontal, Actions - Vertical, Surrounds, and UI.
+
+Each level will introduce 2 or more navigation or editing tasks, and have players complete 10 sets of the tasks as quickly with as little key presses as possible. Hints and manual will be listed on the right panel(CONSOLE), your performance will be logged per task based on how fast your performed and how many keypresses you used.
+
+In the editor, tasks will be shown as a color outline.
+
+Yellow for motions, move to anywhere inside the yellow box to complete the task.
+Red for delete action.
+Orange for selection.
+Green for pasting.
+Purple for changing things.
+Grey for copying.
+
+<!-- **HOTKEYS**
+ctrl+left previous level
+ctrl+right next level
+ctrl+alt+r reload level -->
+
 
 
 
