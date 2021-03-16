@@ -12,13 +12,17 @@ A game to learn vim and vscode keys in logical, digestable levels.
 
 ## DEMO
 
-Basic Levels and UI
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
 
 From the **Actions Motion** Level
 
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/quickDemo.gif" />
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/demo.gif" />
 
+<details>
+<summary>
+Basic Levels and UI
+</summary>
+<img alt="" src="<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
+</details>
 
 <details>
 <summary>
