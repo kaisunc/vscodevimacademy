@@ -48,8 +48,8 @@ Super Cool End of Level UI and Effects!
 
 
 ## QUICK START
-1. Install [ VSCODE VIM ]() extension to enable vim emulation in vscode.
-2. Install [ VSCODE VIM ACADEMY ](https://marketplace.visualstudio.com/items?itemName=kaisunchou.vscodevimacademy)
+1. Install [ VSCODE VIM ](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) extension to enable vim emulation in vscode.
+2. Install [ VSCODE VIM ACADEMY ](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
 3. Activate by first opening the command palette [ ctrl+shift+p ]()
 4. Enter [ "start vva" ]() in the command palette to start the game.
    <details>
