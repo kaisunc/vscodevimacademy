@@ -1,21 +1,120 @@
+<!-- <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/banner.png" /> -->
+<!-- <img alt="" src="http://localhost:5501/data/markdown/banner.png" /> -->
 <div align="center">
-      <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/banner.gif" />
-
+      <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/banner.png" />
 </div>
+<h1>VSCODE VIM ACADEMY</h1>
 
+# ABOUT
+An educational game to learn vim and vscode keys in logical, digestable levels.
+Builds up your vim muscle memories by practicing vim keys 2~5 keys each level. Level text and keys are randomly generated on a per level basis. For example,
 
-# VSCODE VIM ACADEMY
+1. move forward or backward by word
+2. go up or down a random number of lines
+3. delete word forward or backwards from current position
+4. delete word, undo or redo
+5. select, delete, or change lines
+6. delete, copy, or paste words
+7. and more
 
-A game to learn vim and vscode keys in logical, digestable levels.
+players complete 10 sets of the tasks as quickly with as little key presses as possible. Hints and manual will be listed on the right panel(CONSOLE), your performance will be logged per task based on how fast your performed and how many keypresses you used.
 
+---
 
+<br>
 
-## DEMO
-**GIF is sped up 2X**
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/demo.gif" />
+## CATEGORIES
+Levels are separated into five categories.
 
-From the **Actions Motion** Level
+1. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Motions`
+2. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Actions - Horizontal`
+3. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Actions - Vertical`
+4. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Surrounds`
+5. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `UI`
+
+## COLOR CODED ACTIONS
+In the editor, tasks will be shown as a color outline around the text. It can be a single character, words, lines, text objects or blocks.
+
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `Inside - Move the curor inside the yellow box`
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) `Delete - Delete the contents of the red box`
+1. ![](https://via.placeholder.com/15/f38d70/000000?text=+) `Select - Select the contents of the orange box`
+1. ![](https://via.placeholder.com/15/addb78/000000?text=+) `Paste - Paste the contents of green box at the green cursor position`
+1. ![](https://via.placeholder.com/15/e4d2d4/000000?text=+) `Copy - Copy the contents of the grey box`
+1. ![](https://via.placeholder.com/15/b267e6/000000?text=+) `Editing - change, insert, indent, comment, add, minus depending on the level`
+1. ![](https://via.placeholder.com/15/1589f0/000000?text=+) `Outside - Helper type for the mark level, moving outside completes the task`
+
+<br>
+
+# QUICK START
+
+1. Install [ VSCODE VIM ](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) extension to enable vim emulation in vscode.
+2. Install [ VSCODE VIM ACADEMY ](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
+3. Open the command palette [ ctrl+shift+p ]()
+4. Enter [ "start vva" ]() in the command palette to start the game.
+   <details>
+   <summary>
+    Video Tutorial
+   </summary>
+   <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/activation.gif" />
+   </details>
+
+<br></br>
+
+## USER INTERFACE
+
+### LEVEL INFO
+1. Star rating on the top right is for importance
+1. Total time
+1. Performance log, try to keep the cyan line below the red line
+   1. ![](https://via.placeholder.com/15/01B5B8/000000?text=+) `Current - current task speed`
+   1. ![](https://via.placeholder.com/15/BE9E3B/000000?text=+) `Current Avg - average of current level tasks`
+   1. ![](https://via.placeholder.com/15/C64349/000000?text=+) `Target - based on my times`
+   1. ![](https://via.placeholder.com/15/000000/000000?text=+) `Hist - these are based on my times while play testing`
+1. Task table
+1. Current level keys and key description
+
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/uiLevelInfo.png" />
+
+---
+
+<br></br>
+
+### LEVEL NAVIGATION
+To quickly continue to the next level without using the mouse, this widget will show up at the end of a level. Move the cursor using the vim keys,
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `0 - Previous Level`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `b - Retry Current Level`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `w - Next Level`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `$ - Open the Buy Extension Page`
+
+To choose a specific level, use the console to go back to the level selection page
+You can also bind keys for previous, next, and retry levels
+
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `vva.prevLevel`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `vva.retryLevel`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `vva.nextLevel`
+
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/endCursor.gif" />
+
+---
+
+<br></br>
+
+### Vim Cheatsheet HUD
+
+Painstakingly built SVG Animation! Unlimited resolution!
+
+Press [ ctrl+alt+c ]()to toggle the cheatsheet in editor, this feature does not require activating VVA or a VVA license, as long as the VVA extension is installed, the cheatsheet can be shown in the editor. Grab the extension now before I put this feature behind the pay wall!
+
+<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatSheetsm.gif" />
+
+---
+
+<br></br>
+
+# DEMO
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/quickDemo.gif" />
+
+---
 
 <details>
 <summary>
@@ -38,37 +137,15 @@ Actions Motions
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/actions_motion.gif" />
 </details>
 
+<br>
 
-<details>
-<summary>
-Super Cool End of Level UI and Effects!
-</summary>
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/endCursor.gif" />
-</details>
-
-
-## QUICK START
-1. Install [ VSCODE VIM ](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) extension to enable vim emulation in vscode.
-2. Install [ VSCODE VIM ACADEMY ](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
-3. Activate by first opening the command palette [ ctrl+shift+p ]()
-4. Enter [ "start vva" ]() in the command palette to start the game.
-   <details>
-   <summary>
-    Video Tutorial
-   </summary>
-   <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/activation.gif" />
-   </details>
-
-## ISSUES
+# ISSUES
 1. Change to a Dark Theme, VVA currently only supports dark themes.
 2. I had intended to support multiple languages, theres only english, partial chinese and japanese for now. To change language, go to settings/vva/language
 
-## GOALS
-Be the most comprehensive vim and vscode learning resource by providing interactive feedback in the editor itself.
+<br>
 
-
-## HOW TO PLAY
-### LEVELS
+# LEVELS
 
 <details>
 <summary>
@@ -203,27 +280,22 @@ UI
 </details>
 
 <br>
-Levels are separated into five categories. Motions, Actions - Horizontal, Actions - Vertical, Surrounds, and UI.
 
-Each level will introduce 2 or more navigation or editing tasks, and have players complete 10 sets of the tasks as quickly with as little key presses as possible. Hints and manual will be listed on the right panel(CONSOLE), your performance will be logged per task based on how fast your performed and how many keypresses you used.
+# THANKS
+For the four initial buyers and supporters of VVA, gave me some faith that this just might work.
 
-In the editor, tasks will be shown as a color outline.
-
-Yellow for motions, move to anywhere inside the yellow box to complete the task.
-Red for delete action.
-Orange for selection.
-Green for pasting.
-Purple for changing things.
-Grey for copying.
-
-<!-- **HOTKEYS**
-ctrl+left previous level
-ctrl+right next level
-ctrl+alt+r reload level -->
+If you find this extension useful, spread the word, give me some feedback at the git repo or extension marketplace and perhaps buy the extension.
+With enough support, I would like to rework the task decorationOptions to use svg animations instead of the vscode default fadeIn fadeOut css animation. Something cool, like arrows pointing to navigating positions or text delete animations using SVG.
 
 
-
-
-## NOTES
+# NOTES
 Buy a license to unlock all the levels
+
 [![paypal](https://www.paypalobjects.com/en_US/TW/i/btn/btn_buynowCC_LG_wCUP.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SQ5JH6B6MHFJ)
+
+<!-- ## NOTES TO SELF
+Source GIT repo is local private
+Public GIT repo is https://github.com/kaisunc/vscodevimacademy with SOURCE README copied over
+Seller page is ./ , copy images from SOURCE markdown dir, NEED this for image hosting for public repo
+vvaServer GIT repo is for generating licenses from paypal ipa
+Vscode Marketplace page is updated when published, uses README from SOURCE REPO -->
