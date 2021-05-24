@@ -109,6 +109,12 @@ Press [ ctrl+alt+c ]()to toggle the cheatsheet in editor, this feature does not 
 
 ---
 
+**NON-ANIMATED DOWNLOADABLE**
+
+|                                                                                           Light(Printable)                                                                                           |                                                                                                 Dark                                                                                                 |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <a href="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetLight.png"><img alt="" width="300" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetLight.png" /></a> | <a href="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetDark.png"> <img alt="" width="300" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetDark.png" /> </a> |
+
 <br></br>
 
 # DEMO
@@ -299,3 +305,10 @@ Public GIT repo is https://github.com/kaisunc/vscodevimacademy with SOURCE READM
 Seller page is ./ , copy images from SOURCE markdown dir, NEED this for image hosting for public repo
 vvaServer GIT repo is for generating licenses from paypal ipa
 Vscode Marketplace page is updated when published, uses README from SOURCE REPO -->
+
+# TODO
+1. demonstrate the learning process of vva
+1. demonstrate what a high level vim user is capable of
+1. my keybindings for other parts of vscode that uses the same keys as vim. (side panels, terminal, command palette)
+1. level descriptions
+1. webpack the extension
