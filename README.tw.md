@@ -8,8 +8,8 @@
 
 # ABOUT
 
-[中文](https://github.com/kaisunc/vscodevimacademy/blob/master/README.tw.md)
-[日本語](https://github.com/kaisunc/vscodevimacademy/blob/master/README.jp.md)
+[中文]()
+[日本語]()
 <!-- [한국어]() -->
 
 
