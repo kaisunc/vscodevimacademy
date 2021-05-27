@@ -1,321 +1,301 @@
-<!-- <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/banner.png" /> -->
-<!-- <img alt="" src="http://localhost:5501/data/markdown/banner.png" /> -->
-<div align="center">
-      <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/banner.png" />
+<div align ="center">
+      <img alt ="" src ="https://kaisunc.github.io/vscodevimacademy/data/images/banner.png" />
 </div>
-<h1>VSCODE VIM ACADEMY</h1>
+
+<h1> VSCODE VIM 學院 </h1>
 
 
-# ABOUT
+# 關於
 
-[中文]()
-[日本語]()
-<!-- [한국어]() -->
+這是一個教育性遊戲來學習vim和vscode的常用按鍵。每個關卡會讓你學習或複習2~5個常用按鍵。
+例如，
 
+1. 往前或後移至單字**頭**
+1. 往前或後移至單字**尾**
+1. 以單字頭前後移頭
+1. 上下移動任何行數
+1. 從當前位置向前或向後刪除單字
+1. 刪除單字，恢復原狀(UNDO)或重做(REDO)
+1. 選擇，刪除或更改行
+1. 刪除，複製或粘貼單詞
+1. 還有更多
 
-An educational game to learn vim and vscode keys in logical, digestable levels.
-Builds up your vim muscle memories by practicing vim keys 2~5 keys each level. Level text and keys are randomly generated on a per level basis. For example,
-
-1. move forward or backward by word
-2. go up or down a random number of lines
-3. delete word forward or backwards from current position
-4. delete word, undo or redo
-5. select, delete, or change lines
-6. delete, copy, or paste words
-7. and more
-
-players complete 10 sets of the tasks as quickly with as little key presses as possible. Hints and manual will be listed on the right panel(CONSOLE), your performance will be logged per task based on how fast your performed and how many keypresses you used.
+玩家只需盡可能少地按一下鍵，就可以快速完成10組任務。提示和手冊將列在右側面板(CONSOLE)上，將根據您執行的速度和使用的按鍵次數記錄每個任務的性能。
 
 ---
 
 <br>
 
-## CATEGORIES
-Levels are separated into five categories.
+## 類別
+級別分為五個類別。
 
-1. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Motions`
-2. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Actions - Horizontal`
-3. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Actions - Vertical`
-4. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `Surrounds`
-5. ![](https://via.placeholder.com/15/1589F0/000000?text=+) `UI`
+1.![](https://via.placeholder.com/15/1589F0/000000?text=+)`移動`
+2.![](https://via.placeholder.com/15/1589F0/000000?text=+)`橫向編輯`
+3.![](https://via.placeholder.com/15/1589F0/000000?text=+)`直向編輯`
+4.![](https://via.placeholder.com/15/1589F0/000000?text=+)`文字物件 包圍`
+5.![](https://via.placeholder.com/15/1589F0/000000?text=+)`介面`
 
-## COLOR CODED ACTIONS
-In the editor, tasks will be shown as a color outline around the text. It can be a single character, words, lines, text objects or blocks.
+## 顏色編碼
+在編輯器中，任務將在文本周圍顯示為顏色輪廓。它可以是單個字符，單詞，線條，文本對像或塊。
 
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `Inside - Move the curor inside the yellow box`
-1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) `Delete - Delete the contents of the red box`
-1. ![](https://via.placeholder.com/15/f38d70/000000?text=+) `Select - Select the contents of the orange box`
-1. ![](https://via.placeholder.com/15/addb78/000000?text=+) `Paste - Paste the contents of green box at the green cursor position`
-1. ![](https://via.placeholder.com/15/e4d2d4/000000?text=+) `Copy - Copy the contents of the grey box`
-1. ![](https://via.placeholder.com/15/b267e6/000000?text=+) `Editing - change, insert, indent, comment, add, minus depending on the level`
-1. ![](https://via.placeholder.com/15/1589f0/000000?text=+) `Outside - Helper type for the mark level, moving outside completes the task`
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`內部-將光標移到黃色框中`
+1.![](https://via.placeholder.com/15/fd6883/000000?text=+)`刪除-刪除紅色框的內容`
+1.![](https://via.placeholder.com/15/f38d70/000000?text=+)`選擇-選擇橙色框的內容`
+1.![](https://via.placeholder.com/15/addb78/000000?text=+)`貼上-將綠色框的內容粘貼到綠色光標位置`
+1.![](https://via.placeholder.com/15/e4d2d4/000000?text=+)`複製-複製灰色框的內容`
+1.![](https://via.placeholder.com/15/b267e6/000000?text=+)`編輯-取決於關卡，更改，插入，縮進，註釋，添加，減去`
+1.![](https://via.placeholder.com/15/1589f0/000000?text=+)`外部-幫助類型，移到外部即可完成任務。
 
 <br>
 
-# QUICK START
+# 快速開始
 
-1. Install [ VSCODE VIM ](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim) extension to enable vim emulation in vscode.
-2. Install [ VSCODE VIM ACADEMY ](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
-3. Open the command palette [ ctrl+shift+p ]()
-4. Enter [ "start vva" ]() in the command palette to start the game.
+1.安裝[VSCODE VIM](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)外掛，以在vscode中啟用vim模擬。
+2.安裝[VSCODE VIM ACADEMY](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
+3.打開命令面板(command palette)[ctrl + shift + p]()
+4.在命令面板中輸入[" start vva"]()以啟動遊戲。
    <details>
    <summary>
-    Video Tutorial
+    影片教學
    </summary>
-   <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/activation.gif" />
+
+   <img alt ="" src =" https://kaisunc.github.io/vscodevimacademy/data/images/activation.gif" />
    </details>
 
-<br></br>
+<br> </br>
 
-## USER INTERFACE
+## 使用介面
 
-### LEVEL INFO
-1. Star rating on the top right is for importance
-1. Total time
-1. Performance log, try to keep the cyan line below the red line
-   1. ![](https://via.placeholder.com/15/01B5B8/000000?text=+) `Current - current task speed`
-   1. ![](https://via.placeholder.com/15/BE9E3B/000000?text=+) `Current Avg - average of current level tasks`
-   1. ![](https://via.placeholder.com/15/C64349/000000?text=+) `Target - based on my times`
-   1. ![](https://via.placeholder.com/15/000000/000000?text=+) `Hist - these are based on my times while play testing`
-1. Task table
-1. Current level keys and key description
+### 資訊(CONSOLE)
 
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/uiLevelInfo.png" />
+1. 右上角的星級是重要性
+1. 關卡總時間
+1. 效率，嘗試將青色線(目前關卡任務)保持在紅線(建議標準速度)之下
+   1. ![](https://via.placeholder.com/15/01B5B8/000000?text=+)`Current-當前任務速度`
+   1. ![](https://via.placeholder.com/15/BE9E3B/000000?text=+)`Current Avg-當前級別任務的平均值`
+   1. ![](https://via.placeholder.com/15/C64349/000000?text=+)`Target-基於我的時間`
+   1. ![](https://via.placeholder.com/15/000000/000000?text=+)`Hist-歷史記錄-這些基於我在遊戲測試中的時間`
+1. 任務表
+1. 目前關卡的按鍵和說明
 
----
-
-<br></br>
-
-### LEVEL NAVIGATION
-To quickly continue to the next level without using the mouse, this widget will show up at the end of a level. Move the cursor using the vim keys,
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `0 - Previous Level`
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `b - Retry Current Level`
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `w - Next Level`
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `$ - Open the Buy Extension Page`
-
-To choose a specific level, use the console to go back to the level selection page
-You can also bind keys for previous, next, and retry levels
-
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `vva.prevLevel`
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `vva.retryLevel`
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `vva.nextLevel`
-
-<img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/endCursor.gif" />
+<img alt ="" src =" https://kaisunc.github.io/vscodevimacademy/data/images/uiLevelInfo.png" />
 
 ---
 
-<br></br>
+<br> </br>
 
-### Vim Cheatsheet HUD
+### 選關
+<img alt ="" src ="https://kaisunc.github.io/vscodevimacademy/data/images/endCursor.gif" />
 
-Painstakingly built SVG Animation! Unlimited resolution!
+手不離鍵盤選下一個關卡，使用vim鍵移動光標，
 
-Press [ ctrl+alt+c ]()to toggle the cheatsheet in editor, this feature does not require activating VVA or a VVA license, as long as the VVA extension is installed, the cheatsheet can be shown in the editor. Grab the extension now before I put this feature behind the pay wall!
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`0-上一關`
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`b-重試目前的關`
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`w-下一關`
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`$-打開"購買此外掛"頁面`
+
+要選擇特定級別，請使用控制台返回到級別選擇頁面
+您還可以為上一個，下一個和重試級別綁定鍵
+
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.prevLevel`
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.retryLevel`
+1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.nextLevel`
+
+
+---
+
+<br> </br>
+
+### Vim按鍵HUD
+
+精心打造的SVG動畫!
+
+按[ctrl + alt + c]()在編輯器中切換HUD，此功能不需要購買或啟動VVA
 
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatSheetsm.gif" />
 
 ---
 
-**NON-ANIMATED DOWNLOADABLE**
+**圖片版本**
 
-|                                                                                           Light(Printable)                                                                                           |                                                                                                 Dark                                                                                                 |
+|                                                                                               亮(可印)                                                                                               |                                                                                                  暗                                                                                                  |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <a href="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetLight.png"><img alt="" width="300" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetLight.png" /></a> | <a href="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetDark.png"> <img alt="" width="300" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatsheetDark.png" /> </a> |
-
+*CC BY-NC-ND 4.0*
 <br></br>
 
-# DEMO
+# 示範
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/quickDemo.gif" />
 
 ---
 
 <details>
 <summary>
-Basic Levels and UI
+基本關卡與介面
 </summary>
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/basics.gif" />
 </details>
 
 <details>
 <summary>
-Word - Move to beginning of word(s) or end of words(s)
+左右移動至單字開頭
 </summary>
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/word.gif" />
 </details>
 
 <details>
 <summary>
-Actions Motions
+多項編輯&複數移動
 </summary>
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/actions_motion.gif" />
 </details>
 
 <br>
 
-# ISSUES
-1. Change to a Dark Theme, VVA currently only supports dark themes.
-2. I had intended to support multiple languages, theres only english, partial chinese and japanese for now. To change language, go to settings/vva/language
+# 關卡細節
+
+<details>
+<summary>
+移動
+</summary>
+
+1. 左右1
+1. 上下1
+1. 所有方向
+1. 左右2
+1. 上下2
+1. 單字左右1
+1. 單字左右2
+1. 單字尾1
+1. 複習 - 單字開與尾
+1. 行首，行尾，行第一字母
+1. 複習 - wb ， 行首，行尾，行第一字母
+1. 單字左右3
+1. 單字尾2
+1. 複習 - WB & ege
+1. 頁面頂部和底部
+1. 相對上下
+1. 複習 - 頁面頂部和底部 ，跳至行
+1. 跳至行
+1. 複習 - 跳至行，相對行
+1. 屏幕的頂部，中間，​​底部
+1. 半屏上下
+1. 全屏上下
+1. 複習 -
+1. 上下至章節
+1. 轉到下一句
+1. 上下至'}'分段
+1. 上下至'{'分段
+1. 上下至分段
+1. 上下至分段
+1. 轉到文件百分比
+1. 鼠標懸停
+1. 下對配對
+1. 搜索字母1
+1. 單字搜索1
+1. 單字搜索2
+1. 單字搜索2
+1. 跳至定義
+1. 書籤
+</details>
+
+<details>
+<summary>
+橫向編輯
+</summary>
+
+1. 視覺模式1-選擇並退出
+1. 視覺模式2-漸進式選擇
+1. 選擇單詞
+1. 刪除單詞
+1. 貼詞
+1. 刪除單詞
+1. 複製字詞
+1. 更改單詞
+1. 替代單詞
+1. 重新命名變數/功能/物件
+1. 動作+移動
+1. 動作+動作
+1. 恢復重做
+1. 選擇至字母(包含)
+1. 選擇至字母(不包含)
+1. 刪除和退格
+1. 刪除和退格
+1. 大小寫
+1. 加減1
+1. 加減2 - 1-100
+1. 插入字符或字
+1. 替換字符並替換為
+1. 光標處或光標後編輯
+1. 插入到EOL和FCOL
+
+
+</details>
+
+<details>
+<summary>
+直向編輯
+</summary>
+
+1. 選擇行模式1-選擇並退出
+1. 選擇行模式2-漸進式選擇
+1. 刪除行
+1. 複製行
+1. 改變行
+1. 貼行
+1. 插入行
+1. 替換行
+1. 複習-單行全部
+1. 選擇多行
+1. 複製多行
+1. 插入多行
+1. 刪除多行
+1. 替換多行
+1. 複製行貼上
+1. 兩行合一
+1. 上下對換行
+1. 縮進行
+1. 註解行
+
+
+</details>
+
+<details>
+<summary>
+文字物件 包圍
+</summary>
+
+1. 選擇文字物件
+1. 選擇括弧，引號內(包含)
+1. 選擇括弧，引號內(不包含)
+1. 刪除/改變括弧，引號內(包含)
+1. 刪除/改變括弧，引號內(不包含)
+1. 增加括弧，引號
+1. 刪除括弧，引號
+1. 改變括弧，引號
+1. 刪除HTML TAG ，內(包含TAG)，內(不包含TAG)
+
+</details>
+
+<details>
+<summary>
+UI 介面
+</summary>
+
+1. 選擇編輯組
+1. 左右文件
+1. 左右編輯組
+1. 快速選擇檔案1-搜尋
+1. 快速選擇檔案2-上次開
+
+</details>
 
 <br>
 
-# LEVEL DETAULS
+# 購買
 
-<details>
-<summary>
-Motions
-</summary>
-
-1.	Left & Right 1
-2.	Up & Down 1
-3.	All Directions
-4.	Left & Right 2
-5.	Up & Down 2
-6.	Beginning of Word 1
-7.	Beginning of Word 2
-8.	End of Word 1
-9.	Review - Word Beginning & End
-1.  Bol, Eol, First Letter
-2.  Review - Word Beginning & BEFCOL
-3.  Beginning of Word 3
-4.  End of Word 2
-5.  Review - WB & ege
-6.  Top and Bottom of Page
-7.  Up & Down Relative
-8.  Review - Top, Bottom & Relative Line
-9.  Goto Line
-10. Review - Goto & Relative Line
-11. Top, Middle, Bottom of Screen
-12. Up, Down Half Screen
-13. Up, Down Full Screen
-14. Review - Screen Line Movements
-15. Goto Next Paragraph
-16. Goto Next Sentence
-17. Goto Sections 1 - End Of
-18. Goto Sections 2 - Start Of
-19. Goto Sections 3 - Nearest Start or End
-20. Goto Sections 4 - Start or End
-21. Goto % of File
-22. Hover
-23. Next Pair Match
-24. Searching For Letters 1
-25. Word Search 1
-26. Word Search 2
-27. Word Search 3
-28. Goto Definition
-29. Marks
-</details>
-
-<details>
-<summary>
-Actions - Horizontal
-</summary>
-
-1. Visual Mode 1 - Select & Exit
-2. Visual Mode 2 - Incrementally Select
-3. Select Word
-4. Delete Word
-5. Paste Word
-6. Delete & Paste Word
-7. Copy Word
-8. Change Word
-9. Replace Word
-10. Rename Symbol
-11. Actions + Motion
-12. Actions + Motions
-13. Undo & Redo
-14. Select Find Letter
-15. Select To Letter
-16. Delete & Backspace
-17. Delete & Backspace 2
-18. Change Case
-19. Add, Minus 1
-20. Add, Minus 2 - Numbered
-21. Replace Char & Replace With
-22. Swap Characters
-23. Insert At & After Cursor
-24. Insert At EOL & FCOL
-</details>
-
-<details>
-<summary>
-Actions - Vertical
-</summary>
-
-1. Select Line
-2. Select Line Incrementally
-3. Delete Line
-4. Copy Line
-5. Change Line
-6. Paste Line
-7. Insert Line
-8. Replace Line
-9. All Line
-10. Select Lines
-11. Copy Lines
-12. Insert Lines
-13. Delete Lines
-14. Change Lines
-15. Copy Line & Paste
-16. Join Lines
-17. Swap/Move Line
-18. Indent Lines
-19. Comment Lines
-
-</details>
-
-<details>
-<summary>
-Surrounds
-</summary>
-
-1. Select Word Text Object
-2. Select All Surround
-3. Select Inside Surround
-4. Delete/Change All
-5. Delete/Change Inside
-6. Add Surround
-7. Delete Surround
-8. Change Surround
-9. Delete HTML Tag Inner/Outer/Surround
-</details>
-
-<details>
-<summary>
-UI
-</summary>
-
-1. Select Group
-2. Left/Right Editor
-3. Left/Right Group
-4. Quick File Navigation 1 - Search
-5. Quick File Navigation 2 - Last File
-
-</details>
-
-<br>
-
-# THANKS
-For the four initial buyers and supporters of VVA, gave me some faith that this just might work.
-
-If you find this extension useful, spread the word, give me some feedback at the git repo or extension marketplace and perhaps buy the extension.
-With enough support, I would like to rework the task decorationOptions to use svg animations instead of the vscode default fadeIn fadeOut css animation. Something cool, like arrows pointing to navigating positions or text delete animations using SVG.
-
-
-# NOTES
-Buy a license to unlock all the levels
+購買KEY以解鎖所有關卡
 
 [![paypal](https://www.paypalobjects.com/en_US/TW/i/btn/btn_buynowCC_LG_wCUP.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SQ5JH6B6MHFJ)
 
-<!-- ## NOTES TO SELF
-Source GIT repo is local private
-Public GIT repo is https://github.com/kaisunc/vscodevimacademy with SOURCE README copied over
-Seller page is ./ , copy images from SOURCE markdown dir, NEED this for image hosting for public repo
-vvaServer GIT repo is for generating licenses from paypal ipa
-Vscode Marketplace page is updated when published, uses README from SOURCE REPO -->
-
-# TODO
-1. demonstrate the learning process of vva
-1. demonstrate what a high level vim user is capable of
-1. my keybindings for other parts of vscode that uses the same keys as vim. (side panels, terminal, command palette)
-1. level descriptions
-1. webpack the extension
+會收到一封email含 license key，在console 右上方可以進入license 介面
