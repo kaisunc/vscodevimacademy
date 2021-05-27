@@ -29,22 +29,22 @@
 ## 類別
 級別分為五個類別。
 
-1.![](https://via.placeholder.com/15/1589F0/000000?text=+)`移動`
-2.![](https://via.placeholder.com/15/1589F0/000000?text=+)`橫向編輯`
-3.![](https://via.placeholder.com/15/1589F0/000000?text=+)`直向編輯`
-4.![](https://via.placeholder.com/15/1589F0/000000?text=+)`文字物件 包圍`
-5.![](https://via.placeholder.com/15/1589F0/000000?text=+)`介面`
+1. ![](https://via.placeholder.com/15/1589F0/000000?text=+)`移動`
+2. ![](https://via.placeholder.com/15/1589F0/000000?text=+)`橫向編輯`
+3. ![](https://via.placeholder.com/15/1589F0/000000?text=+)`直向編輯`
+4. ![](https://via.placeholder.com/15/1589F0/000000?text=+)`文字物件 包圍`
+5. ![](https://via.placeholder.com/15/1589F0/000000?text=+)`介面`
 
 ## 顏色編碼
 在編輯器中，任務將在文本周圍顯示為顏色輪廓。它可以是單個字符，單詞，線條，文本對像或塊。
 
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`內部-將光標移到黃色框中`
-1.![](https://via.placeholder.com/15/fd6883/000000?text=+)`刪除-刪除紅色框的內容`
-1.![](https://via.placeholder.com/15/f38d70/000000?text=+)`選擇-選擇橙色框的內容`
-1.![](https://via.placeholder.com/15/addb78/000000?text=+)`貼上-將綠色框的內容粘貼到綠色光標位置`
-1.![](https://via.placeholder.com/15/e4d2d4/000000?text=+)`複製-複製灰色框的內容`
-1.![](https://via.placeholder.com/15/b267e6/000000?text=+)`編輯-取決於關卡，更改，插入，縮進，註釋，添加，減去`
-1.![](https://via.placeholder.com/15/1589f0/000000?text=+)`外部-幫助類型，移到外部即可完成任務。
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`內部-將光標移到黃色框中`
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+)`刪除-刪除紅色框的內容`
+1. ![](https://via.placeholder.com/15/f38d70/000000?text=+)`選擇-選擇橙色框的內容`
+1. ![](https://via.placeholder.com/15/addb78/000000?text=+)`貼上-將綠色框的內容粘貼到綠色光標位置`
+1. ![](https://via.placeholder.com/15/e4d2d4/000000?text=+)`複製-複製灰色框的內容`
+1. ![](https://via.placeholder.com/15/b267e6/000000?text=+)`編輯-取決於關卡，更改，插入，縮進，註釋，添加，減去`
+1. ![](https://via.placeholder.com/15/1589f0/000000?text=+)`外部-幫助類型，移到外部即可完成任務。
 
 <br>
 
@@ -89,17 +89,17 @@
 
 手不離鍵盤選下一個關卡，使用vim鍵移動光標，
 
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`0-上一關`
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`b-重試目前的關`
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`w-下一關`
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`$-打開"購買此外掛"頁面`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`0-上一關`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`b-重試目前的關`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`w-下一關`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`$-打開"購買此外掛"頁面`
 
 要選擇特定級別，請使用控制台返回到級別選擇頁面
 您還可以為上一個，下一個和重試級別綁定鍵
 
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.prevLevel`
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.retryLevel`
-1.![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.nextLevel`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.prevLevel`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.retryLevel`
+1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+)`vva.nextLevel`
 
 
 ---
