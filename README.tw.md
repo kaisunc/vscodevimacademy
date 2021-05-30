@@ -44,16 +44,16 @@
 1. ![](https://via.placeholder.com/15/addb78/000000?text=+)`貼上-將綠色框的內容粘貼到綠色光標位置`
 1. ![](https://via.placeholder.com/15/e4d2d4/000000?text=+)`複製-複製灰色框的內容`
 1. ![](https://via.placeholder.com/15/b267e6/000000?text=+)`編輯-取決於關卡，更改，插入，縮進，註釋，添加，減去`
-1. ![](https://via.placeholder.com/15/1589f0/000000?text=+)`外部-幫助類型，移到外部即可完成任務。
+1. ![](https://via.placeholder.com/15/1589f0/000000?text=+)`外部-幫助類型，移到外部即可完成任務。`
 
 <br>
 
 # 快速開始
 
-1.安裝[VSCODE VIM](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)外掛，以在vscode中啟用vim模擬。
-2.安裝[VSCODE VIM ACADEMY](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
-3.打開命令面板(command palette)[ctrl + shift + p]()
-4.在命令面板中輸入[" start vva"]()以啟動遊戲。
+1. 安裝[VSCODE VIM](https://marketplace.visualstudio.com/items?itemName=vscodevim.vim)外掛，以在vscode中啟用vim模擬。
+2. 安裝[VSCODE VIM ACADEMY](https://marketplace.visualstudio.com/items?itemName=kaisun.vscodevimacademy)
+3. 打開命令面板(command palette)[ctrl + shift + p]()
+4. 在命令面板中輸入[" start vva"]()以啟動遊戲。
    <details>
    <summary>
     影片教學
@@ -61,6 +61,7 @@
 
    <img alt ="" src =" https://kaisunc.github.io/vscodevimacademy/data/images/activation.gif" />
    </details>
+5. 切換至中文介面，ctrl+, 進設定，搜尋vva，Language
 
 <br> </br>
 
