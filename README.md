@@ -5,11 +5,11 @@
 </div>
 <h1>VSCODE VIM ACADEMY</h1>
 
+[中文](https://github.com/kaisunc/vscodevimacademy/blob/master/README.tw.md)
+[日本語](https://github.com/kaisunc/vscodevimacademy/blob/master/README.jp.md)
 
 # ABOUT
 
-[中文](https://github.com/kaisunc/vscodevimacademy/blob/master/README.tw.md)
-[日本語](https://github.com/kaisunc/vscodevimacademy/blob/master/README.jp.md)
 <!-- [한국어]() -->
 
 
@@ -29,6 +29,12 @@ players complete 10 sets of the tasks as quickly with as little key presses as p
 ---
 
 <br>
+
+##  ![](https://via.placeholder.com/15/addb78/000000?text=+) CHANGES / ![](https://via.placeholder.com/15/fd6883/000000?text=+) FIXES (2021/6/3)
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Level 'Swap Characters' breaks VVA](https://github.com/kaisunc/vscodevimacademy/issues/9)
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Level 'Marks' not loading correctly](https://github.com/kaisunc/vscodevimacademy/issues/8)
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Levels 'Goto Definition' and 'Rename Symbol' not loading](https://github.com/kaisunc/vscodevimacademy/issues/7)
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Level 'Word Search 3' incorrect setup](https://github.com/kaisunc/vscodevimacademy/issues/6)
 
 ## CATEGORIES
 Levels are separated into five categories.
