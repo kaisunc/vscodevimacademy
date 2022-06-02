@@ -36,6 +36,7 @@ I intended to add some nifty animations that points from the cursor to the locat
 ##  ![](https://via.placeholder.com/15/addb78/000000?text=+) CHANGES / ![](https://via.placeholder.com/15/fd6883/000000?text=+) FIXES (2022/6/2)
 1. ![](https://via.placeholder.com/15/addb78/000000?text=+) [Added Hotkey Helpers into the editor interface, note all levels/keys are supported currently]
 1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Modified how tasks are generated in preparation for better task mixing]
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Updated NPM packages with security warnings(moment, lodash, minimist)]
 
 ##  ![](https://via.placeholder.com/15/addb78/000000?text=+) CHANGES / ![](https://via.placeholder.com/15/fd6883/000000?text=+) FIXES (2021/6/3)
 1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Level 'Swap Characters' breaks VVA](https://github.com/kaisunc/vscodevimacademy/issues/9)
