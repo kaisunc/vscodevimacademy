@@ -4,6 +4,28 @@
 
 <h1> VSCODE VIM 學院 </h1>
 
+# 注意! 購買沒收到License
+購買license若沒在5分鐘以內拿到，請聯絡: kaisun.c@gmail.com，我會補寄給你。
+這問題還在觀察中，目前是有一些中國的email會漏掉。
+
+# 注意! 切換中文
+若在移動模式(Normal Mode)切換到中文輸入只會讓你卡住！
+Vscode Vim 有設定可以記住在編輯模式(Insert Mode)最後的輸入法，而且換到移動模式(Normal Mode)的時候進入關掉輸入法(Input Method - IM)。
+
+**先下載 [im-select](https://github.com/daipeihust/im-select#installation)**
+
+**至vscode settings > extensions > vim 找到以下四個設定**
+1. Auto Switch Input Method: Default IM: 1033
+2. Auto Switch Input Method: Enable: 勾選
+3. Auto Switch Input Method: Obtain IMCmd: c:\任何位置\im-select.exe
+4. Auto Switch Input Method: Switch IMCmd: c:\任何位置\im-select.exe {im}
+
+**註解:**
+1. 1033 是英數輸入法的代碼，當進入 Normal Mode 時會把輸入法切還成這邊設定的。
+2. 使用自動切換輸入法
+3. 切換輸入法程式
+4. 切換輸入法程式指令
+
 
 # 關於
 

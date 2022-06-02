@@ -10,9 +10,6 @@
 
 # ABOUT
 
-<!-- [한국어]() -->
-
-
 An educational game to learn vim and vscode keys in logical, digestable levels.
 Builds up your vim muscle memories by practicing vim keys 2~5 keys each level. Level text and keys are randomly generated on a per level basis. For example,
 
@@ -28,7 +25,17 @@ players complete 10 sets of the tasks as quickly with as little key presses as p
 
 ---
 
+# Authors Note
+2022/6/2
+If you didn't receive your license key an hour after using paypal, please email me directly at vscodevimacademy@gmail.com. I'll find your paypal IPN number and generate a license manually. (My license generating server that listens for paypal messages does not work for Paypal users in China)
+
+I intended to add some nifty animations that points from the cursor to the location along with the helpers introduced in this update. But feel that it is too distracting. In the end, a little burnt out, but I'll be doing small updates if possible. Thanks for the people that bought this!
+
 <br>
+
+##  ![](https://via.placeholder.com/15/addb78/000000?text=+) CHANGES / ![](https://via.placeholder.com/15/fd6883/000000?text=+) FIXES (2022/6/2)
+1. ![](https://via.placeholder.com/15/addb78/000000?text=+) [Added Hotkey Helpers into the editor interface, note all levels/keys are supported currently]
+1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Modified how tasks are generated in preparation for better task mixing]
 
 ##  ![](https://via.placeholder.com/15/addb78/000000?text=+) CHANGES / ![](https://via.placeholder.com/15/fd6883/000000?text=+) FIXES (2021/6/3)
 1. ![](https://via.placeholder.com/15/fd6883/000000?text=+) [Level 'Swap Characters' breaks VVA](https://github.com/kaisunc/vscodevimacademy/issues/9)
