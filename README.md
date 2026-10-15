@@ -26,9 +26,10 @@ players complete 10 sets of the tasks as quickly with as little key presses as p
 ---
 
 # Authors Note
-2022/6/2
-If you didn't receive your license key an hour after using paypal, please email me directly at vscodevimacademy@gmail.com. I'll find your paypal IPN number and generate a license manually. (My license generating server that listens for paypal messages does not work for Paypal users in China)
+2026/10
+**License sales have been discontinued.** VVA is no longer for sale and no new purchases are accepted. If you bought a license and have an issue with it, please email vscodevimacademy@gmail.com.
 
+2022/6/2
 I intended to add some nifty animations that points from the cursor to the location along with the helpers introduced in this update. But feel that it is too distracting. In the end, a little burnt out, but I'll be doing small updates if possible. Thanks for the people that bought this!
 
 <br>
@@ -105,7 +106,6 @@ To quickly continue to the next level without using the mouse, this widget will 
 1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `0 - Previous Level`
 1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `b - Retry Current Level`
 1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `w - Next Level`
-1. ![](https://via.placeholder.com/15/f9cc6c/000000?text=+) `$ - Open the Buy Extension Page`
 
 To choose a specific level, use the console to go back to the level selection page
 You can also bind keys for previous, next, and retry levels
@@ -124,8 +124,7 @@ You can also bind keys for previous, next, and retry levels
 
 Painstakingly built SVG Animation! Unlimited resolution!
 
-Press [ ctrl+alt+c ]()to toggle the cheatsheet in editor, this feature does not require activating VVA or a VVA license, as long as the VVA extension is installed, the cheatsheet can be shown in the editor. Grab the extension now before I put this feature behind the pay wall!
-
+Press [ ctrl+alt+c ]()to toggle the cheatsheet in editor, this feature does not require activating VVA or a VVA license, as long as the VVA extension is installed, the cheatsheet can be shown in the editor. 
 <img alt="" src="https://kaisunc.github.io/vscodevimacademy/data/images/cheatSheetsm.gif" />
 
 ---
@@ -311,14 +310,8 @@ UI
 # THANKS
 For the four initial buyers and supporters of VVA, gave me some faith that this just might work.
 
-If you find this extension useful, spread the word, give me some feedback at the git repo or extension marketplace and perhaps buy the extension.
-With enough support, I would like to rework the task decorationOptions to use svg animations instead of the vscode default fadeIn fadeOut css animation. Something cool, like arrows pointing to navigating positions or text delete animations using SVG.
+If you find this extension useful, spread the word or give me some feedback at the git repo or extension marketplace.
 
-
-# NOTES
-Buy a license to unlock all the levels
-
-[![paypal](https://www.paypalobjects.com/en_US/TW/i/btn/btn_buynowCC_LG_wCUP.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SQ5JH6B6MHFJ)
 
 <!-- ## NOTES TO SELF
 Source GIT repo is local private

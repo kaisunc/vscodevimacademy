@@ -111,8 +111,4 @@
 
 # 購入
 
-KEYを購入して、すべてのカードのロックを解除します
-
-[![paypal](https://www.paypalobjects.com/en_US/TW/i/btn/btn_buynowCC_LG_wCUP.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SQ5JH6B6MHFJ)
-
-ライセンスキーが記載されたメールが届きます。コンソールの右上にライセンスの紹介を入力できます
+VVA の販売は終了しました。新規のご購入は受け付けておりません。

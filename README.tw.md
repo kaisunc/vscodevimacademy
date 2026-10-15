@@ -4,9 +4,8 @@
 
 <h1> VSCODE VIM 學院 </h1>
 
-# 注意! 購買沒收到License
-購買license若沒在5分鐘以內拿到，請聯絡: kaisun.c@gmail.com，我會補寄給你。
-這問題還在觀察中，目前是有一些中國的email會漏掉。
+# 注意! 已停止販售
+VVA 已停止販售 license，不再接受新的購買。已購買者若有問題，請聯絡: kaisun.c@gmail.com。
 
 # 注意! 切換中文
 若在移動模式(Normal Mode)切換到中文輸入只會讓你卡住！
@@ -317,8 +316,4 @@ UI 介面
 
 # 購買
 
-購買KEY以解鎖所有關卡
-
-[![paypal](https://www.paypalobjects.com/en_US/TW/i/btn/btn_buynowCC_LG_wCUP.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7SQ5JH6B6MHFJ)
-
-會收到一封email含 license key，在console 右上方可以進入license 介面
+VVA 已停止販售，不再接受新的購買。
